@@ -1,0 +1,13 @@
+{
+  "name": "testing-exercises",
+  "version": "1.0.0",
+  "author": "Kiefer Cover <kiefer.cover@rate.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.2.1"
+  }
+}
