@@ -19,7 +19,7 @@ const submitLead = async (data, serverErrorFn = () => null) => {
     } else if (response.status >= 500){
         return serverErrorFn();
     } else {
-        throw new Error('Failed to submit lead. Response: ', response.data);
+        throw new Error(`Failed to submit lead. Response: ${response.data}`);
     }
 }
 
